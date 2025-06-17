@@ -15,7 +15,7 @@ class Meksses:
 
 class Onl_Meksses(Meksses):
     def __init__(self, name=None, surname=None, birth_year=None, course=None, online_platform=None, in_ukraine=None, device_used=None):
-        super().init(name, surname, birth_year, course)
+        super()._init_(name, surname, birth_year, course)
         self.online_platform = online_platform
         self.in_ukraine = in_ukraine
         self.device_used = device_used
